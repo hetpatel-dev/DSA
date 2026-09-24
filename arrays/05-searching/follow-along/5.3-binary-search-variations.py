@@ -41,13 +41,13 @@ print(first_occurence_binary_search(
 
 def last_occurence_binary_search(arr: list, target: int) -> int:
     """
-    Return the index of the first/leftmost occurence of given target.
+    Return the index of the last/rightmost occurence of given target.
 
     #### Precondition:
         - array must be sorted.
 
     #### Returns:
-        - int: index of the first occurence of target element.
+        - int: index of the last occurence of target element.
 
     #### Time Complexity:
         - O(log n): where n is the number of elements of array.
